@@ -14,6 +14,5 @@ python main.py data/bible.txt
 
 #### Setup #2 - virtual env, in case you're not sure you have python 2.7 available or don't want to mess up your env.
 ```
-venv/bin/pyton-2.7 main.py data/bible.txt
+venv/bin/python2.7 main.py data/bible.txt
 ```
-
