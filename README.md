@@ -39,5 +39,5 @@ wife's                         { 1: 6562 }  <--- this is a unique word in treeba
 #### Notes of interest
 - ye is said 439 times in moby dick
 - ye is said 3839 times in the bible
-- wrote is written 62 times, but wrought is written 100 times.
-- wife is written 407 times in the bible, but only 24 times in moby dick.  Apparently religion is more interested in marriage than sailors.
+- wrote is written 62 times, but wrought is written 100 times in moby dick
+- wife is written 407 times in the bible but only 24 times in moby dick.  Apparently religion is more interested in marriage than sailors.
