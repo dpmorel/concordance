@@ -39,6 +39,10 @@ The first chapter of moby dick took:
 wordpunct       0:00:00.006795ms 186 keys
 treebank        0:00:00.031439ms 184 keys
 
+All of moby dick took:
+wordpunct       0:00:01.229898ms 17458 keys
+treebank        0:00:09.740102ms 18989 keys
+
 """
 
 from __future__ import absolute_import, unicode_literals

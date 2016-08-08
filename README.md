@@ -16,3 +16,28 @@ python main.py data/bible.txt
 ```
 venv/bin/python2.7 main.py data/bible.txt
 ```
+
+#### Runtimes
+The bible took:
+wordpunct       0:00:02.455445ms 12755 keys
+treebank        0:00:26.392973ms 12779 keys
+
+The first chapter of moby dick took:
+wordpunct       0:00:00.006795ms 186 keys
+treebank        0:00:00.031439ms 184 keys
+
+All of moby dick took:
+wordpunct       0:00:01.229898ms 17458 keys
+treebank        0:00:09.740102ms 18989 keys
+
+Interesting that moby dick is faster than the bible, though it looks in fact bigger.
+
+#### The difference between Treebank and wordpunct regex
+wife's                         { 1: 6562 }  <--- this is a unique word in treebank, it doesn't exist in wordpunct
+
+
+#### Notes of interest
+ye is said 439 times in moby dick
+ye is said 3839 times in the bible
+wrote is written 62 times, but wrought is written 100 times.
+wife is written 407 times in the bible, but only 24 times in moby dick.  Apparently religion is more interested in marriage than sailors.
