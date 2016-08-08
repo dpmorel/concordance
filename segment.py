@@ -29,7 +29,11 @@ Convert the text to Unix linebreaks if the case.
 """
 from __future__ import absolute_import, unicode_literals
 import codecs
-from regex import compile, DOTALL, UNICODE, VERBOSE
+import sys
+try:
+    from regex import compile, DOTALL, UNICODE, VERBOSE
+except ImportError:
+    sys.exit("Please pip install regex or follow the readme to run the virtualenv")
 
 
 __author__ = 'Florian Leitner <florian.leitner@gmail.com>'
